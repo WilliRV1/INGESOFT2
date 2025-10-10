@@ -6,7 +6,6 @@ MediSync es una aplicación web full-stack diseñada para simplificar la gestió
 
 * **Autenticación de Usuarios:** Registro, inicio de sesión y recuperación de contraseña seguros.
 * **Gestión de Perfil:** Los usuarios pueden ver y actualizar su información personal.
-* **[Añade aquí otra funcionalidad clave que tenga la app]**
 
 ## 🛠️ Tecnologías Utilizadas
 
