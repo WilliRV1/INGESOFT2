@@ -1,12 +1,52 @@
-# React + Vite
+# MediSync (SIGED) - Aplicación de Gestión Médica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MediSync es una aplicación web full-stack diseñada para simplificar la gestión de citas e historiales médicos para pacientes y profesionales de la salud. Este proyecto fue desarrollado como parte del curso de Ingeniería de Software 2.
 
-Currently, two official plugins are available:
+## ✨ Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Autenticación de Usuarios:** Registro, inicio de sesión y recuperación de contraseña seguros.
+* **Gestión de Perfil:** Los usuarios pueden ver y actualizar su información personal.
+* **[Añade aquí otra funcionalidad clave que tenga la app]**
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React.js, Vite
+* **Backend:** Node.js, Express
+* **Pruebas:** Playwright (E2E), Jest (Unitarias)
+* **Calidad de Código:** SonarQube
+* **Estilos:** CSS puro
+
+## 🚀 Cómo Ejecutar el Proyecto Localmente
+
+Para correr este proyecto en tu máquina, sigue estos pasos:
+
+**Pre-requisitos:**
+* Node.js (v18 o superior)
+* npm
+
+**Instalación:**
+
+1.  Clona el repositorio:
+    ```bash
+    git clone [URL-DE-TU-REPOSITORIO]
+    ```
+2.  Navega a la carpeta del backend e instala las dependencias:
+    ```bash
+    cd backend
+    npm install
+    ```
+3.  Navega a la carpeta raíz del frontend e instala las dependencias:
+    ```bash
+    cd ..
+    npm install
+    ```
+4.  Inicia el servidor del backend:
+    ```bash
+    cd backend
+    npm start
+    ```
+5.  Inicia la aplicación de frontend:
+    ```bash
+    cd ..
+    npm run dev
+    ```
